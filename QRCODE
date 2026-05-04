@@ -1,0 +1,8 @@
+import qrcode
+qr=qacode.QRCode()
+a="TVK is rocking"
+qr.add_data(a)
+qr.make(fit=True)
+res=qr.mark_image(fill_colour="black",back_colour="white")
+res.save("NIHARIKA.png")
+print("created niha")
