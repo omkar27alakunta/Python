@@ -1,0 +1,9 @@
+n1=int(input("Enter any num:"))
+n2=int(input("Enter any num2:"))
+sum=n1+n2
+
+with open("raju.txt",'a') as a:
+    a.write(str(n1) + "\n")
+    a.write(str(n2) + "\n")
+    a.write(str(sum) + "\n")
+print("ok")
